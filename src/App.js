@@ -1,7 +1,9 @@
+import Menu from './components/menu';
+
 function App() {
   return (
     <div>
-      teste
+      <Menu />
     </div>
   );
 }
