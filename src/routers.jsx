@@ -5,14 +5,17 @@ import Biografia from './paginas/biografia.jsx';
 import CampanhaPublicitaria from './paginas/campanhapublicitaria.jsx';
 
 function AppRouters() {
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/biografia" element={<Biografia />}></Route>
-            <Route path="/cp" element={<CampanhaPublicitaria />}></Route>
-            <Route path="/contato" element={<Contato />}></Route>
-        </Routes>
-    </BrowserRouter>
+    return(
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/biografia" element={<Biografia />}></Route>
+                <Route path="/cp" element={<CampanhaPublicitaria />}></Route>
+                <Route path="/contato" element={<Contato />}></Route>
+            </Routes>
+        </BrowserRouter>
+    );
+    
 }
 
 export default AppRouters;

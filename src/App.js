@@ -1,9 +1,9 @@
-import Menu from './components/menu';
+import AppRouters from './routers';
 
 function App() {
   return (
     <div>
-      <Menu />
+      <AppRouters />
     </div>
   );
 }
