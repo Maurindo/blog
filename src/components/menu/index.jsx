@@ -1,16 +1,17 @@
 import styles from './menu.module.css';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
     return(
         <div className={styles.principal}>
             <div className={styles.corpo}>
-                <span>HOME</span>
+                <span><Link to="/">HOME</Link></span>
                 |
-                <span>BIOGRAFIA</span>
+                <span><Link to={"/biografia"}>BIOGRAFIA</Link></span>
                 |
-                <span>CAMPANHAS PUBLICITÁRIAS</span>
+                <span><Link to={"/cp"}>CAMPANHAS PUBLICITÁRIAS</Link></span>
                 |
-                <span>CONTATO</span>
+                <span><Link to={"/contato"}>CONTATO</Link></span>
             </div>
         </div>
     );
