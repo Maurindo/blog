@@ -1,0 +1,21 @@
+.corpo{
+    width: 900px;
+    background: #E8E8D9;
+    padding: 18px;
+}
+
+.corpo h1{
+    color: #828271;
+}
+
+.corpo p{
+    font-size: 18px;
+    
+}
+
+.final{
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 50px;
+}
