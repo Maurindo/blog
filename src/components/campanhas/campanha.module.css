@@ -3,11 +3,18 @@
     background: #E8E8D9;
     padding: 18px;
 }
+
+
 .corpo h1{
     color: #9c8271;
 }
 
-.corpo p{
+.corpo img {
+    border: 12px solid #c3c3ae;
+    border-radius: 12px;
+}
+
+.corpo p {
     font-size: 18px;
 }
 
