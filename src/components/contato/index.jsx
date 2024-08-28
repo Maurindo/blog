@@ -15,7 +15,7 @@ export default function Contato(){
             <img src={Foto2} alt="foto de contato usado na campanha" />
 
             <br/><span className={styles.negrito}>e-mail: </span><span>contato@annabella.com.br</span>
-            <br/><span className={styles.negrito}>telefon: </span><span>(11) 3333-3333</span>
+            <br/><span className={styles.negrito}>telefone: </span><span>(11) 3333-3333</span>
             <div className={styles.final}>
                 Todos os direitos reservados
             </div>
